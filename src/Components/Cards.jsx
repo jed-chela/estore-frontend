@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { CiShoppingBasket } from "react-icons/ci";
 import pic1 from '../assets/productImage/Group 19.png';
 /*import pic_2 from '../assets/Group 20.png';
@@ -13,8 +13,14 @@ import pic_9 from '../assets/image 18.png';
 */
 
 const Cards = () => {
+  
+
+ 
+
+
+
   return (
-    <div className="flex flex-wrap ml-[23rem] z-[-2] w-6">
+    <div className="flex flex-wrap ml-[23rem] cursor-pointer w-6">
       <div className=" mt-[20px] border-gray-200 p-5">
         <div>
           <div className="w-[300px] ">

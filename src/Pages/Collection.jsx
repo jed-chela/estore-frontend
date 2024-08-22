@@ -13,6 +13,7 @@ const Collection = () => {
       <Product />
       <AwyetuCollection />
       <Contact />
+    
     </div>
   );
 };

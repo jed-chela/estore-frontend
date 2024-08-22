@@ -18,52 +18,52 @@ const Product = () => {
 
         <div className="flex flex-wrap text-[10px] pb-3 ml-[30px] w-[60%] items-center ">
           <div className="w-1/5">
-            <button className="w-[120px] p-1 border border-gray-400 text-gray-900">
+            <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               NEW
             </button>
           </div>
           <div className="w-1/5">
-            <button className="w-[120px] p-1 border border-gray-400 text-gray-900">
+            <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               AWYETU COLLECTION
             </button>
           </div>
           <div className="w-1/5">
-            <button className="w-[120px] p-1 border border-gray-400 text-gray-900">
+            <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               SHIRTS
             </button>
           </div>
           <div className="w-1/5">
-            <button className="w-[120px] p-1 border border-gray-400 text-gray-900">
+            <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               TROUSERS
             </button>
           </div>
           <div className="w-1/5">
-            <button className="w-[120px] p-1 border border-gray-400 text-gray-900">
+            <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               SUITS
             </button>
           </div>
           <div className="w-1/5">
-            <button className="w-[120px] p-1 border border-gray-400 text-gray-900">
+            <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               BEST SELLERS
             </button>
           </div>
           <div className="w-1/5">
-            <button className="w-[120px] p-1 border border-gray-400 text-gray-900">
+            <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               T-SHIRTS
             </button>
           </div>
           <div className="w-1/5">
-            <button className="w-[120px] p-1 border border-gray-400 text-gray-900">
+            <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               AGBADAS
             </button>
           </div>
           <div className="w-1/5">
-            <button className="w-[120px] p-1 border border-gray-400 text-gray-900">
+            <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               JACKETS
             </button>
           </div>
           <div className="w-1/5">
-            <button className="w-[120px] p-1 border border-gray-400 text-gray-900">
+            <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               COATS
             </button>
           </div>
