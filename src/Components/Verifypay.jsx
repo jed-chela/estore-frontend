@@ -1,8 +1,8 @@
 import React from "react";
 import pic11 from "../assets/productImage/image 10.png";
 import { FaArrowLeftLong } from "react-icons/fa6";
-import { TbSquareRotated } from "react-icons/tb";
 import pic12 from "../assets/productImage/imgcomf.png";
+import pic13 from "../assets/productImage/image 3c.png";
 
 const Verifypay = () => {
   return (
@@ -14,27 +14,28 @@ const Verifypay = () => {
         </div>
 
         <div className=" flex items-center">
-          <p>
-            {" "}
-            <TbSquareRotated />1
-          </p>
-          <p>
-            {" "}
-            <TbSquareRotated />2
-          </p>
-          <p>
-            {" "}
-            <TbSquareRotated />3
-          </p>
+          <img src={pic13} alt="" />
         </div>
         <div>
           <img className="h-[350px] mx-auto block" src={pic12} alt="" />
         </div>
         <p className="flex">
-          <button className="border-2  text-[20px] border-gray-700 w-[420px]  bg-blue-950 rounded-[15px] h-[45px] mb-4 mx-auto text-gray-100">Go to Home</button>
+          <button
+            className="border-2  text-[20px] border-gray-700 w-[420px]
+            bg-blue-950 rounded-[15px] h-[45px] mb-4 mx-auto
+             text-gray-100 hover:bg-gray-400"
+          >
+            Go to Home
+          </button>
         </p>
-        <p className="flex">
-          <button className="border-2 text-[20px] border-gray-700 w-[420px] bg-green-600 rounded-[15px] mt-4 h-[45px] mx-auto text-gray-100">Shop More</button>
+        <p className="flex ">
+          <button
+            className="border-2 text-[20px] border-gray-700 w-[420px]
+           bg-green-600 rounded-[15px] mt-4 h-[45px] mx-auto
+           text-gray-100 hover:bg-gray-400"
+          >
+            Shop More
+          </button>
         </p>
       </div>
 
