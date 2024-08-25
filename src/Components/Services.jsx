@@ -9,22 +9,21 @@ import image2 from "../assets/productImage/image 6.png";
 const Services = () => {
   return (
     <div className="h[100%] bg-white">
-      <div className="py-[10px] px-[20px] flex items-center justify-between text-center">
-        
-      </div>
+     
       
 
       {/**Service Card Section */}
       <div className=" object-cover">
-        <div className=" flex items-center justify-center m-2 mt-8 text-center">
-          <div className="p-2 ">
-            <img  src={image2} alt="" />
-            <p> SAFARI</p>
-          </div>
-          <div className="p-2">
+        <div className=" flex items-center justify-center  mt-8 text-center">
+          <div className="ml-[20px] ">
             <img  src={image1} alt="" />
-            <p className="absolute top-0 left-0">KAFTAN</p>
           </div>
+          <div className="absolute font-medium text-5xl flex top-50 left-[20%]  text-white"> SAFARI</div>
+          <div className="ml-[20px]">
+            <img  src={image2} alt="" />
+            
+          </div>
+          <div className="absolute font-medium text-5xl flex top-50 right-[20%]  text-white">KAFTAN</div>
          
           
         </div>
