@@ -1,6 +1,7 @@
 import React from "react";
 import video from "../assets/Awyetu.mp4";
 
+
 const Hero = () => {
   return (
     <div className="w-full h-full">
@@ -22,8 +23,12 @@ const Hero = () => {
 
         <div className="flex-1 cursor-pointer  h-fit ">
           <ul className="flex justify-end">
-            <li className="mr-4 hover:border">SEARCH</li>
-            <li className="mr-4 hover:border">ACCOUNT</li>
+            <li className="mr-4 hover:border">
+              <a href="/collection">SEARCH</a>
+            </li>
+            <li className="mr-4 hover:border">
+              <a href="/payment">ACCOUNT</a>
+            </li>
             <li className="mr-4 hover:border">BAG</li>
           </ul>
         </div>
@@ -34,8 +39,10 @@ const Hero = () => {
         </h1>
     
         <button className="py-[5px] px-[30px] mt-10 text-[20px] font-medium  text-white underline hover:border">
-          S H O P
+          <a href="/collection">S H O P</a>
+         
         </button>
+         
       </div>
     </div>
   );
