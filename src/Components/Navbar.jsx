@@ -8,7 +8,8 @@ const Navbar = () => {
       <div className="py-[10px] px-[20px] flex justify-between items-center">
         {/** Search Nav-container */}
         <div className="flex flex-1">
-          <div className="text-[14px] cursor-pointer p-1">AWYETU
+          <div className="text-[14px] cursor-pointer p-1">
+            <a href="/home">AWYETU</a>
 
           </div>
           <div className="text-[14px] cursor-pointer p-1 ml-2">OTHER COLLECTIONS

@@ -1,21 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { CiShoppingBasket } from "react-icons/ci";
 import pic1 from '../assets/productImage/Group 19.png';
-/*import pic_2 from '../assets/Group 20.png';
-import pic_3 from '../assets/image 14.png';
-import pic_4 from '../assets/Group 182.png';
-import pic_5 from '../assets/Group 183.png';
-import pic_6 from '../assets/image 15.png';
-import pic_7 from '../assets/Group 199.png';
-import pic_8 from '../assets/Group 200.png';
-import pic_9 from '../assets/image 18.png';
 
-*/
 
 const Cards = () => {
   
-
- 
 
 
 

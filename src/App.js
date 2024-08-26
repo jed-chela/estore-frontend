@@ -6,19 +6,20 @@ import Payment from "./Pages/Payment"
 
 
 
-function App() {
 
-  
+function App() {
 
 
 
   return (
     <div>
+     
       <BrowserRouter>
+      
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/collection" element={<Collection />} />
+          <Route path='Collection' element={<Collection />} />
           <Route path="/verification" element={<Verification />} />
           <Route path="/payment" element={<Payment />} />
           
