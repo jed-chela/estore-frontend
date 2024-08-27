@@ -1,32 +1,53 @@
 import React from "react";
-import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="flex justify-between" >
-      <div className="h-[200px] bg-white mt-[50px] ml-[20px] ">
-        <h1 className="">Join the Conversation</h1>
-
-        <div className=" border-b-2 border-gray-900 w-[300px] flex">
-          <input
-            type="text"
-            placeholder="EMAIL ADDRESS"
-            className="w-[300px] text-[12px] p-2 focus:outline-none hover:border-none focus flex justify-between"
-          />
-          <div>
-            <MdOutlineArrowRightAlt className="text-3xl font-light" />
-          </div>
+    <div className="h-[200px] w-full bg-white">
+      <div className="py-[10px] px-[20px] flex  justify-between items-center">
+        <div className="flex-1">
+          <h1 className="font-bold text-[20px] mb-2">Contact Us</h1>
+          <p className=" text-gray-400 mb-2">Email: info@luxurybespoke.com</p>
+          <p className=" text-gray-400 mb-2">Phone: +234-809-123-4567</p>
         </div>
-      </div>
 
-      <div className="mt-[80px] ">
-        <ul className="flex text-[12px] cursor-pointer ">
-          <li className="m-2 hover:text-[15px] hover:m-0 transition-all duration-300 ease-in-out">NIGERIA (NGN)</li>
-          <li className="m-2 hover:text-[15px] hover:m-0 transition-all duration-300 ease-in-out">CONTACT</li>
-          <li className="m-2 hover:text-[15px] hover:m-0 transition-all duration-300 ease-in-out">CLIENT SERVICES</li>
-          <li className="m-2 hover:text-[15px] hover:m-0 transition-all duration-300 ease-in-out">LEGAL NOTICES</li>
-          <li className="m-2 hover:text-[15px] hover:m-0 transition-all duration-300 ease-in-out">SOCIAL</li>
-        </ul>
+        <div className="flex-1">
+          <h1 className="font-bold text-[20px] mb-2">Customer Service</h1>
+          <p className=" text-gray-400 mb-2">
+            <a href="">FAQs</a>
+          </p>
+          <p className=" text-gray-400 mb-2">
+            <a href="">Privacy Policy</a>
+          </p>
+          <p className=" text-gray-400 mb-2">
+            <a href="">Terms of Service</a>
+          </p>
+        </div>
+
+        <div className="flex-1">
+          <h1 className="font-bold text-[20px] mb-2 ">About Us</h1>
+          <p className=" text-gray-400 mb-2">
+            <a href="">Our Story</a>
+          </p>
+          <p className=" text-gray-400 mb-2">
+            <a href="">Craftsmanship</a>
+          </p>
+          <p className=" text-gray-400 mb-2">
+            <a href="">Bespoke Services</a>
+          </p>
+        </div>
+
+        <div className="flex-1">
+          <h1 className="font-bold text-[20px] mb-2">Follow Us</h1>
+          <p className=" text-gray-400 mb-2">
+            <a href="">Facebook</a>
+          </p>
+          <p className=" text-gray-400 mb-2">
+            <a href="">Instagram</a>
+          </p>
+          <p className=" text-gray-400 mb-2">
+            <a href="">Twitter</a>
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -12,7 +12,8 @@ const Navbar = () => {
             <a href="/home">AWYETU</a>
 
           </div>
-          <div className="text-[14px] cursor-pointer p-1 ml-2">OTHER COLLECTIONS
+          <div className="text-[14px] cursor-pointer p-1 ml-2">
+            <a href="/Collection">OTHER COLLECTIONS</a>
                
           </div>
         </div>

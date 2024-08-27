@@ -23,13 +23,13 @@ const Hero = () => {
 
         <div className="flex-1 cursor-pointer  h-fit ">
           <ul className="flex justify-end">
-            <li className="mr-4 hover:border">
+            <li className="mr-4 p-1 rounded-[3px] hover:border">
               <a href="/collection">SEARCH</a>
             </li>
-            <li className="mr-4 hover:border">
-              <a href="/payment">ACCOUNT</a>
+            <li className="mr-4 p-1 rounded-[3px] hover:border">ACCOUNT
+              
             </li>
-            <li className="mr-4 hover:border">BAG</li>
+            <li className="mr-4 p-1 rounded-[3px] hover:border">BAG</li>
           </ul>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Hero = () => {
           AWYETU COLLECTION
         </h1>
     
-        <button className="py-[5px] px-[30px] mt-10 text-[20px] font-medium  text-white underline hover:border">
+        <button className="py-[5px] px-[30px] mt-10 text-[20px] font-medium  text-white underline hover:border hover:rounded-[3px]">
           <a href="/collection">S H O P</a>
          
         </button>
