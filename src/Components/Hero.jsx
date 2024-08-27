@@ -18,7 +18,7 @@ const Hero = () => {
           <a className="ml-4" href="">KAFTAN</a>
         </div>
         <div className="flex-2 text-5xl">
-          <a href="">AWYETU</a>
+          <a href="/Home">AWYETU</a>
         </div>
 
         <div className="flex-1 cursor-pointer  h-fit ">
@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
       <div className="absolute top-20 left-0 w-full h-full flex flex-col justify-center items-center">
         <h1 className="text-[80px] font-light text-white">
-          AWYETU COLLECTION
+          <a href="/Home">AWYETU COLLECTION</a>
         </h1>
     
         <button className="py-[5px] px-[30px] mt-10 text-[20px] font-medium  text-white underline hover:border hover:rounded-[3px]">
