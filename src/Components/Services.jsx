@@ -11,18 +11,24 @@ const Services = () => {
       {/**Service Card Section */}
       <div className=" object-cover">
         <div className=" flex items-center justify-center  mt-8 text-center">
-          <div className="ml-[20px] ">
-            <img src={image1} alt="" />
-          </div>
+          <a href="/collection">
+            <div className="ml-[20px] ">
+              <img src={image1} alt="" />
+            </div>
+          </a>
           <div className="absolute font-medium text-5xl flex top-50 left-[20%]  text-white">
-            <button className="border-2 p-2 rounded-[5px] hover:border-gray-500 hover:bg-blue-600 hover:text-gray-300 ">SAFARI</button>{" "}
-          </div>
-          <div className="ml-[20px]">
-            <img src={image2} alt="" />
-          </div>
+              <a href="/collection">SAFARI</a>
+            </div>{" "}
+
+          <a href="/collection">
+            <div className="ml-[20px]">
+              <img src={image2} alt="" />
+            </div>
+            
+          </a>
           <div className="absolute font-medium text-5xl flex top-50 right-[20%]  text-white">
-          <button className="border-2 p-2 rounded-[5px] hover:border-gray-500 hover:bg-gray-400 hover:text-gray-800 ">KAFTAN</button>
-          </div>
+             <a href="/collection"> KAFTAN</a>
+            </div>
         </div>
       </div>
     </div>
