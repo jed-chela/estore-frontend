@@ -7,6 +7,7 @@ const Cards = () => {
     <div className="flex flex-wrap ml-[23rem] cursor-pointer w-6">
       <div className=" mt-[20px] border-gray-200 p-5">
         <div>
+        <a href="/Productpage">
           <div className="w-[300px] ">
             <img src={pic1} alt="Coat" className="" />
           </div>
@@ -21,13 +22,14 @@ const Cards = () => {
 
           <div className="flex justify-between items-center">
             <h2 className="text-[15px] font-medium">
-            <a href="/payment"> LEATHER COLLAR TRENCH COAT</a>
+             LEATHER COLLAR TRENCH COAT
              
             </h2>
             <div>
               <CiShoppingBasket className="text-2xl text-gray-500 text-right" />
             </div>
           </div>
+          </a>
         </div>
       </div>
     </div>
