@@ -88,11 +88,11 @@ const Makepay = () => {
           <p>
             <input type="checkbox" className="transform scale-150" />
           </p>
-          <p>
+          <a href="/verification">
             <button className="border-2 h-[40px] w-full text-gray-100 bg-orange-600 rounded-md p4 underline hover:bg-gray-400">
               PAY 400,000
             </button>
-          </p>
+            </a>
           <div className="underline flex justify-center mt-2">
           <HiOutlineLockClosed className="text-3xl mr-4" /> Payments are secured and encrypted
           </div>
