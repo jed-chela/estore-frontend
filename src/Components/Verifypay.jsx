@@ -19,7 +19,7 @@ const Verifypay = () => {
         <div>
           <img className="h-[350px] mx-auto block" src={pic12} alt="" />
         </div>
-        <p className="flex">
+        <a href="/Home" className="flex">
           <button
             className="border-2  text-[20px] border-gray-700 w-[420px]
             bg-blue-950 rounded-[15px] h-[45px] mb-4 mx-auto
@@ -27,16 +27,16 @@ const Verifypay = () => {
           >
             Go to Home
           </button>
-        </p>
-        <p className="flex ">
+        </a>
+        <a href="/collection" className="flex ">
           <button
             className="border-2 text-[20px] border-gray-700 w-[420px]
            bg-green-600 rounded-[15px] mt-4 h-[45px] mx-auto
            text-gray-100 hover:bg-gray-400"
           >
-            Shop More
+            <a href="/collection">Shop More</a>
           </button>
-        </p>
+        </a>
       </div>
 
       <div className=" ml-[50px] mt-[20px] border-2 rounded-[15px] border-gray-300 w-auto h-auto   ">
