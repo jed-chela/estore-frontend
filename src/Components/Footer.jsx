@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="h-[200px] bg-white mt-[50px] ml-[20px] ">
         <h1 className="">Join the Conversation</h1>
 
-        <div className=" border-b-2 border-gray-900 w-[300px] flex">
+        <div className=" border-b-2 border-gray-900 w-[200px] sm:w-[300px] flex">
           <input
             type="text"
             placeholder="EMAIL ADDRESS"
@@ -19,8 +19,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-[80px] ">
-        <ul className="flex text-[12px] cursor-pointer ">
+      <div className="mt-[40px] m-4 md:mt-[80px] sm:mt-4 ">
+        <ul className="  md:flex  text-[12px] cursor-pointer ">
           <li className="m-2 hover:text-[15px] hover:m-0 transition-all duration-300 ease-in-out">NIGERIA (NGN)</li>
           <li className="m-2 hover:text-[15px] hover:m-0 transition-all duration-300 ease-in-out">CONTACT</li>
           <li className="m-2 hover:text-[15px] hover:m-0 transition-all duration-300 ease-in-out">CLIENT SERVICES</li>
