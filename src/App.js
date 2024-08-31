@@ -5,6 +5,7 @@ import Verification from "./Pages/Verification"
 import Payment from "./Pages/Payment"
 import Productpage from "./Pages/Productpage";
 import Checkout from "./Pages/Checkout";
+import AdminDashboard from "./Pages/AdminDashboard";
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/payment" element={<Payment />} />
           <Route path="/Productpage" element={<Productpage />} />
           <Route path="/Checkout" element={<Checkout/>} />
+          <Route path="/Admindashboard" element={<AdminDashboard/>} />
           
         </Routes>
       </BrowserRouter>
