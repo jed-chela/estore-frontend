@@ -11,7 +11,7 @@ const Services = () => {
     <div className="h-[100%] bg-white">
       {/**Service Card Section */}
       <div className=" object-cover">
-        <div className="  flex flex-1  md:flex-row md:flex md:items-center md:justify-center  md:mt-8 text-center">
+        <div className="  flex flex-col  md:flex-row md:flex md:items-center md:justify-center  md:mt-8 text-center">
           <a href="/collection">
             <div className="relative md:ml-[20px] p-2 md:p-0 ">
               <motion.img
