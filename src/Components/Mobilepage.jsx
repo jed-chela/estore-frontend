@@ -9,9 +9,9 @@ import { motion } from 'framer-motion'
 const Mobilepage = () => {
   return (
     <div className=" w-full max-h-[70vh] overflow-y-auto ">
-      <div className="flex justify-between text-center mt-[90px] ">
+      <div className="flex justify-between text-center mt-[20px] ">
         <a href="">
-          <div className="w-[150px] p-2 hover:p-0 ">
+          <div className="w-[100px] p-2 hover:p-0 ">
             <motion.img
              initial={{ y: 100, opacity: 0}}
              whileInView={{ y: 0, opacity: 1}}
@@ -22,7 +22,7 @@ const Mobilepage = () => {
           </div>
         </a>
         <a href="">
-          <div className="w-[150px] p-2 hover:p-0">
+          <div className="w-[100px] p-2 hover:p-0">
             <motion.img
              initial={{ y: -100, opacity: 0}}
              whileInView={{ y: 0, opacity: 1}}
@@ -33,7 +33,7 @@ const Mobilepage = () => {
           </div>
         </a>
         <a href="">
-          <div className="w-[150px] p-2 hover:p-0">
+          <div className="w-[100px] p-2 hover:p-0">
             <motion.img
              initial={{ y: 100, opacity: 0}}
              whileInView={{ y: 0, opacity: 1}}
@@ -52,7 +52,7 @@ const Mobilepage = () => {
         </div>
 
         <a href="">
-            <div className="p-2 mt-[70px] hover:p-4">
+            <div className="p-2 mt-[50px] hover:p-4">
                 <motion.img
                  initial={{ x: -100, opacity: 0}}
                  whileInView={{ x: 0, opacity: 1}}
