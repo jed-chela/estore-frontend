@@ -8,10 +8,10 @@ import { motion } from 'framer-motion'
 
 const Mobilepage = () => {
   return (
-    <div className=" w-full max-h-[70vh] overflow-y-auto ">
-      <div className="flex justify-between text-center mt-[20px] ">
+    <div className=" w-full max-h-[70vh] overflow-y-auto md:hidden ">
+      <div className="grid grid-cols-3 text-center mt-[20px] items-center pl-4 sm:pl-[70px] ">
         <a href="">
-          <div className="w-[100px] p-2 hover:p-0 ">
+          <div className="w-[100px] sm:w-[130px] md:p-1 md:hover:p-0 ">
             <motion.img
              initial={{ y: 100, opacity: 0}}
              whileInView={{ y: 0, opacity: 1}}
@@ -22,7 +22,7 @@ const Mobilepage = () => {
           </div>
         </a>
         <a href="">
-          <div className="w-[100px] p-2 hover:p-0">
+          <div className="w-[100px] sm:w-[130px] md:p-1 md:hover:p-0">
             <motion.img
              initial={{ y: -100, opacity: 0}}
              whileInView={{ y: 0, opacity: 1}}
@@ -33,7 +33,7 @@ const Mobilepage = () => {
           </div>
         </a>
         <a href="">
-          <div className="w-[100px] p-2 hover:p-0">
+          <div className="w-[100px] sm:w-[130px] md:p-1 md:hover:p-0">
             <motion.img
              initial={{ y: 100, opacity: 0}}
              whileInView={{ y: 0, opacity: 1}}
@@ -52,7 +52,7 @@ const Mobilepage = () => {
         </div>
 
         <a href="">
-            <div className="p-2 mt-[50px] hover:p-4">
+            <div className="p-2 w-auto mt-[50px] md:hover:p-4">
                 <motion.img
                  initial={{ x: -100, opacity: 0}}
                  whileInView={{ x: 0, opacity: 1}}
@@ -67,7 +67,7 @@ const Mobilepage = () => {
         
 
         <a href="">
-            <button className="w-[300px] m-[40px] p-2 transition-colors duration-300 border mx-auto block rounded-[5px] hover:bg-gray-600 hover:text-white  bg-white ">SHOP NOW</button>
+            <button className="w-[200px] sm:w-[300px] m-[40px] p-2 md:transition-colors duration-300 border mx-auto block rounded-[5px] md:hover:bg-gray-600 md:hover:text-white  bg-white ">SHOP NOW</button>
         </a>
 
 
