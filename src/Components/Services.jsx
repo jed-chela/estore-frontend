@@ -22,7 +22,7 @@ const Services = () => {
               src={image1} alt="" />
             </div>
           </a>
-          <div className="absolute font-normal md:font-medium text-3xl md:text-3xl top-[90%] left-[40%] sm:top-[115%] sm:left-[40%]  flex md:top-[135%] md:left-[20%]  text-black">
+          <div className="absolute font-normal md:font-medium text-3xl md:text-3xl top-[70%] left-[40%] sm:top-[115%] sm:left-[40%]  flex md:top-[135%] md:left-[20%]  text-white">
               <a className=" " href="/collection">Safari</a>
             </div>{" "}
 
@@ -34,7 +34,7 @@ const Services = () => {
               transition={{delay:0.2, x:{type:"spring", stiffness:40}, opacity:{duration:1}, ease:"easeIn", duration:2}}
                src={image2} alt="" />
             </div>
-            <div className=" absolute font-normal md:font-medium text-3xl flex top-[180%] left-[40%] sm:top-[250%] sm:left-[40%] md:top-[135%] md:left-[70%] xl:top-50 xl:right-[20%]  text-black">
+            <div className=" absolute font-normal md:font-medium text-3xl flex top-[135%] left-[36%] sm:top-[250%] sm:left-[40%] md:top-[135%] md:left-[70%] xl:top-50 xl:right-[20%]  text-white">
              <a className="" href="/collection"> Kaftan</a>
             </div>
             

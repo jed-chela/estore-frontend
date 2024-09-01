@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div className="w-full h-full">
       <video
-        className="sm:w-auto md:w-full md:h-screen md:object-cover"
+        className="w-auto mt-10 md:mt-0 md:w-full md:h-screen md:object-cover"
         src={video}
         autoPlay
         muted
@@ -20,20 +20,20 @@ const Hero = () => {
 
       <div className="fixed bg-gray-50 text-black font-medium bg-opacity-70 mt-0 z-[999]  md:bg-transparent sm:absolute top-0 left-0 w-full h-auto flex justify-between md:font-thin md:mt-2 text-[20px] md:text-white">
         <div className="hidden  sm: text-[10px] md:text-[20px] flex-1 ">
-          <a className="ml-4" href="">
+          <a className="ml-2 md:ml-4" href="">
             SAFARI
           </a>
-          <a className="ml-4" href="">
+          <a className="ml-2" href="">
             KAFTAN
           </a>
         </div>
 
-        <div className="mr-[77%] items-center  h-auto md:w-full flex- flex-2 text-[20px] md:text-5xl">
+        <div className="mr-[65%] ml-2 items-center  h-auto md:w-full flex- flex-2 text-[20px] md:text-5xl">
           <a className=" " href="/Home">
             AWYETU
           </a>
         </div>
-        <div onClick={handleClick} className="md:hidden mt-2 z-10">
+        <div onClick={handleClick} className="md:hidden mt-2  z-10">
           {!nav ? <IoMdMenu /> : <IoCloseSharp />}
         </div>
 
@@ -64,12 +64,12 @@ const Hero = () => {
           
         </div>
       </div>
-      <div className="absolute top-20 left-[150px] flex flex-col justify-center items-center ">
-        <h1 className="text-[20px] md:text-[50px] font-light text-white">
-          <a className="text-2xl mb-4" href="/Home">AWYETU COLLECTION</a>
+      <div className="absolute top-20 left-[60px] flex flex-col justify-center items-center ">
+        <h1 className="text-[20px] font-light text-white">
+          <a className="text-[20px] md:text-[50px] mb-4 text-center" href="/Home">AWYETU COLLECTION</a>
         </h1>
 
-        <button className="md:py-[5px] md:px-[30px] md:mt-10 text-[15px] md:text-[20px] font-medium  text-white underline hover:border hover:rounded-[3px]">
+        <button className="md:py-[5px] md:px-[30px] md:mt-10 text-[15px] md:text-[20px] font-medium mt-4  text-white underline hover:border hover:rounded-[3px]">
           <a href="/collection">S H O P</a>
         </button>
       </div>
