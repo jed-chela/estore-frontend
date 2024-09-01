@@ -3,11 +3,11 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="grid grid-flow-row justify-between" >
+    <div className="grid grid-flow-row justify-between md:grid-flow-col" >
       <div className="h-auto bg-white mt-[50px] ml-[20px] ">
         <h1 className="font-medium">Join the Conversation</h1>
 
-        <div className=" border-b-2 border-gray-900 w-[150px] sm:w-[300px] flex">
+        <div className=" border-b-2 border-gray-900 w-[150px] sm:w-[200px] flex">
           <input
             type="text"
             placeholder="EMAIL ADDRESS"
