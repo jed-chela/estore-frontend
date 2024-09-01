@@ -38,7 +38,7 @@ const Services = () => {
           <a href="/collection">
             <div className="relative md:ml-[20px] p-2 md:p-0 ">
               <motion.img
-                initial={{ x: 120, opacity: 0 }}
+                initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{
                   delay: 0.2,

@@ -44,7 +44,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="mr-[65%] ml-2 sm:mr-[75%] sm:ml-4 items-center  h-auto md:w-full md:ml-[25%] xl:ml-[35%] flex- flex-2 text-[20px] md:text-5xl">
+        <div className="mr-[60%] ml-2 sm:mr-[75%] sm:ml-4 items-center  h-auto md:w-full md:ml-[25%] xl:ml-[35%] flex- flex-2 text-[20px] md:text-5xl">
           <a className=" " href="/Home">
             AWYETU
           </a>
