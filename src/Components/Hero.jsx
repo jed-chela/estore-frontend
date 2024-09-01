@@ -64,7 +64,7 @@ const Hero = () => {
           
         </div>
       </div>
-      <div className="absolute top-20 left-[60px] flex flex-col justify-center items-center ">
+      <div className="absolute top-20 left-[70px] flex flex-col justify-center items-center ">
         <h1 className="text-[20px] font-light text-white">
           <a className="text-[20px] md:text-[50px] mb-4 text-center" href="/Home">AWYETU COLLECTION</a>
         </h1>
