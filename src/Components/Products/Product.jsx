@@ -3,10 +3,10 @@ import { CiSearch } from "react-icons/ci";
 
 const Product = () => {
   return (
-    <div className="h-[150px] flex flex-wrap ml-[23rem] z-[-2] ">
-      <h1 className="font-bold text-2xl mb-[4px] mt-10">PRODUCTS</h1>
-      <div className=" w-[[300px] flex ">
-        <div className="h-[50px] w-[400px] flex justify-between items-center p-2 bg-gray-300  text-gray-800">
+    <div className="h-[150px] w-[270px] md:flex flex-wrap ml-4 md:ml-[23rem] z-[-2] ">
+      <h1 className="font-bold text-1xl md:text-2xl mb-[4px] mt-[70px] m:mt-10">PRODUCTS</h1>
+      <div className=" md:w-[[300px] flex ">
+        <div className="h-[50px] w-full md:w-[400px] flex justify-between items-center p-2 bg-gray-300  text-gray-800">
           <CiSearch className="text-3xl" />
           <input
             type="text"
@@ -16,7 +16,7 @@ const Product = () => {
           />
         </div>
 
-        <div className="flex flex-wrap text-[10px] pb-3 ml-[30px] w-[60%] items-center ">
+        <div className="hidden md:flex md:flex-wrap md:text-[10px] md:pb-3 md:ml-[30px] md:w-[60%] md:items-center ">
           <div className="w-1/5">
             <button className="w-[120px] p-1 border border-gray-400 text-gray-900 hover:bg-gray-300">
               NEW
