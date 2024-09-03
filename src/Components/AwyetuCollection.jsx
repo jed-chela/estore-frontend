@@ -3,7 +3,7 @@ import CardItem from "./CardItem";
 
 const AwyetuCollection = () => {
   return (
-    <div className=" z-[-3] w-[300px] ">
+    <div className=" z-[-3] w-full ">
       <CardItem />
     
     </div>

@@ -8,7 +8,7 @@ const Cards = (props) => {
       <div className=" mt-[20px] border-gray-200 p-5 ">
         <div>
         <a href="/Productpage">
-          <div className="md:w-[300px] w-[250px] ">
+          <div className="md:w-[300px] w-full ">
           <img src={props.img} alt="" className="w-full h-auto" />
           </div>
 
