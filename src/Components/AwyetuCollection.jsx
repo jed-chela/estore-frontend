@@ -1,18 +1,11 @@
 import React from "react";
-import Cards from "../Components/Cards";
+import CardItem from "./CardItem";
 
 const AwyetuCollection = () => {
   return (
-    <div className="flex flex-wrap z-[-3] ">
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
+    <div className=" z-[-3] w-[300px] ">
+      <CardItem />
+    
     </div>
   );
 };

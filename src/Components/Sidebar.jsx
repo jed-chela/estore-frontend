@@ -7,7 +7,7 @@ import CategoryToggle from "./Products/CategoryToggle";
 
 const Sidebar = () => {
   return (
-    <div className="w-[22%] h-[85%] fixed top-0 left-0 mt-[10%] p-4 ">
+    <div className="hidden md:block md:w-[22%] md:h-[85%] md:fixed md:top-0 md:left-0 md:mt-[10%] md:p-4 ">
       <div className="ml-2">
         <h3 className="font-bold text-[20px] mb-6">Filters</h3>
         <p className="font-bold mb-2">Size</p>
