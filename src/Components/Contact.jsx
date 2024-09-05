@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     
 
-    <div className="w-auto md:h-[200px] md:w-full bg-gray-300">
+    <div className="w-auto md:h-[200px] md:w-full md:text-[10px] lg:text-[15px] bg-gray-300">
       <div className="mt-[100px] grid grid-cols-1 py-[10px] text-center px-[20px] md:flex  md:justify-between items-center">
         <div className="flex-1">
           <h1 className="font-bold  text-[15px] md:text-[20px] mb-2">Contact Us</h1>

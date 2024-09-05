@@ -12,7 +12,7 @@ import pic9 from '../assets/productImage/image 18.png';
 
 const CardItem = () => {
   return (
-    <div className="md:grid grid-cols-1 md:grid-cols-3 z-[-3] w-auto md:w-[70%]">
+    <div className="md:grid grid-cols-1 md:grid-cols-3 lg:ml-[20rem] lg:mt-[2rem]  z-[-3] w-auto md:w-full">
         <Cards
         img={pic1}
         title="LEATHER COLLAR TRENCH COAT"
