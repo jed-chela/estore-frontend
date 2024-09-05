@@ -4,12 +4,12 @@ import { CiShoppingBasket } from "react-icons/ci";
 
 const Cards = (props) => {
   return (
-    <div className="flex m-1  md:ml-4 cursor-pointer  md:w-[15rem]">
+    <div className="flex m-1   cursor-pointer  md:w-[15rem] lg:w-auto">
       <div className=" mt-[20px] md:mt-[7rem] border-gray-200 p-5 ">
         <div>
         <a href="/Productpage">
           <div className="md:w-full w-full ">
-          <img src={props.img} alt="" className="w-auto md:w-full h-auto " />
+          <img src={props.img} alt="" className="w-auto md:w-full  h-auto " />
           </div>
 
           <div className="flex justify-between items-center mb-2">
