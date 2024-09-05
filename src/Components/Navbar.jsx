@@ -4,7 +4,7 @@ import LogInIcon from '@mui/icons-material/PermIdentity';
 const Navbar = () => {
   return (
     /* Nav Container */
-    <div className="hidden md:block md:w-full md:h-[80px] md:bg-white md:border-b-2 border-none md:border-gray-500">
+    <div className="hidden md:block md:w-full lg:flex  md:h-[80px] md:bg-white md:border-b-2 border-none md:border-gray-500">
       <div className="md:py-[10px] md:px-[20px] flex justify-between md:w-full items-center">
         {/** Search Nav-container */}
         <div className="flex flex-1">
