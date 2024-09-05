@@ -8,18 +8,18 @@ const NavToggle = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed md:hidden  bg-gray-50 text-black font-medium bg-opacity-70 mt-0 z-[999]   top-0 left-0 w-full h-auto flex justify-between  text-[20px]">
-      <div className="flex w-full">
-        <a href="/Home" className=" ml-4 mr-[195px]">
+      <div className="flex w-full flex-3 justify-between">
+        <a href="" className=" ml-4 ">
           <h1>Awyetu</h1>
         </a>
-        <div onClick={handleClick} className="md:hidden mt-2  z-10">
+        <div onClick={handleClick} className="md:hidden mt-2 flex justify-end z-10">
         {!nav ? <IoMdMenu /> : <IoCloseSharp />}
       </div>
       </div>
 
       
 
-      <div className="w-full md:w-auto mt-[40px]  ">
+      <div className="w-auto md:w-auto mt-[40px]  ">
         <div
           className={
             !nav
