@@ -4,24 +4,24 @@ import { CiShoppingBasket } from "react-icons/ci";
 
 const Cards = (props) => {
   return (
-    <div className="flex m-1  md:ml-[23rem] cursor-pointer  md:w-6">
-      <div className=" mt-[20px] border-gray-200 p-5 ">
+    <div className="flex m-1   cursor-pointer  md:w-[15rem] lg:w-auto">
+      <div className=" mt-[20px] md:mt-[7rem] border-gray-200 p-5 ">
         <div>
         <a href="/Productpage">
-          <div className="md:w-[300px] w-full ">
-          <img src={props.img} alt="" className="w-full h-auto" />
+          <div className="md:w-full w-full ">
+          <img src={props.img} alt="" className="w-auto md:w-full  h-auto " />
           </div>
 
           <div className="flex justify-between items-center mb-2">
-            <h3 className="flex-1 text-[12px] text-gray-500 mr-4">
+            <h3 className="flex-1 text-[12px] md:text-[12px] text-gray-500 mr-4">
               {props.category}
             </h3>
-            <del className="flex-2 mr-2 ">{props.privPrice}</del>
-            <div className="flex-2 font-medium ">{props.newPrice}</div>
+            <del className="flex-2 mr-2 md:text-[10px] ">{props.privPrice}</del>
+            <div className="flex-2 font-medium md:text-[10px] ">{props.newPrice}</div>
           </div>
 
           <div className="flex justify-between items-center">
-            <h2 className="text-[15px] font-medium">
+            <h2 className="text-[15px] md:text-[10px] font-medium">
              {props.title}
              
             </h2>
