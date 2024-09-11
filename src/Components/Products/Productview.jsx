@@ -1,12 +1,42 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import picz from "../../assets/productImage/image 11.png";
 import { FaStar } from "react-icons/fa6";
+import { useParams } from "react-router-dom";
+
+
+
 
 const ProductView = () => {
+/*
+  const {Cardata}= useContext(ShopContext);
+  const {id} = useParams();
+  
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try{
+        
+        const product = data.filter((p) => p.id == id);
+        console.log(product)
+        setProducts(product[0])
+      } catch (error) {
+        console.log("Error fetching data:", error)
+      }
+    }
+    
+    fetchData();
+
+
+  }, [id] )
+
+  const {img, title, category, newPrice} = products;
+
+
+
   return (
     <div className=" h-fit flex w-auto ">
       <div className=" pt-[70px] pb-[70px]">
-        <img className="h-[150vh] w-auto " src={picz} alt="" />
+        <img className="h-[150vh] w-auto " src={img} alt="" />
       </div>
       <div>
         <div className="pt-[70px] ml-[100px]  w-auto   ">
@@ -48,10 +78,7 @@ const ProductView = () => {
           </h1>
           <p className="ml-[100px] ">
             {" "}
-            Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Ab,
-            eius modi consequatur cupiditate labore <br />
-            ea optio dignissimos velit delectus id maiores laboriosam, sint
-            itaque provident <br /> ipsa molestias omnis eaque iusto!
+            
           </p>
         </div>
         <div className=" border-[1px] border-b-gray-100  mt-[40px] w-full"></div>
@@ -79,7 +106,7 @@ const ProductView = () => {
         </div>
       </div>
     </div>
-  );
+  );*/
 };
 
-export default ProductView;
+export default ProductView
