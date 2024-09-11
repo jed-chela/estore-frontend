@@ -1,11 +1,25 @@
 import React from "react";
-import CardItem from "./CardItem";
+import Cardata from "./Cardata";
+import Cards from "./Cards";
+
+function createEntry(itemCards) {
+  return <Cards
+      key={itemCards.id}
+      img={itemCards.img}
+      title={itemCards.title}
+      category={itemCards.category}
+      privPrice={itemCards.privPrice}
+      newPrice={itemCards.newPrice} />
+
+}
+
+
 
 const AwyetuCollection = () => {
   return (
-    <div className=" z-[-3] w-full ">
-      <CardItem />
-    
+    <div className="md:grid grid-cols-1 md:grid-cols-3  lg:mt-[2rem]  z-[-3] w-auto md:w-full">
+      {Cardata.map(createEntry)}
+ 
     </div>
   );
 };

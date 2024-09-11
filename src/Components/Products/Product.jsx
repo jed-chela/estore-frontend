@@ -24,7 +24,7 @@ const Product = () => {
           </div>
           <div className="lg:w-1/5">
             <button className="w-[100px] lg:w-[120px] xl:w-[100px] m-1 p-1 md:border border-gray-300 text-gray-900 hover:bg-gray-300">
-              COLLECTION
+            TIMELESS TRADITION
             </button>
           </div>
           <div className="lg:w-1/5">

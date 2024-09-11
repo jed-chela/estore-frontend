@@ -1,6 +1,6 @@
 import React from "react";
 import image1 from "../assets/productImage/imagw 111.jpeg";
-import image2 from "../assets/productImage/image 6.png";
+import image2 from "../assets/productImage/Imagekaftan.jpeg";
 import { motion } from "framer-motion";
 
 {
@@ -11,10 +11,11 @@ const Services = () => {
     <div className="h-[100%] bg-white">
       {/**Service Card Section */}
       <div className=" object-cover">
-        <div className="  flex flex-col  md:flex-row md:flex md:items-center md:justify-center  md:mt-8 text-center">
+        <div className="  flex flex-col  md:flex-row md:flex md:items-center md:justify-center gap-10  md:mt-8 text-center">
           <a href="/collection">
-            <div className="relative md:ml-[20px] p-2 md:p-0 ">
+            <div className="relative md:ml-[20px] md:flex-1 p-2 md:p-0 ">
               <motion.img
+              className="md:h-screen md:w-full"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{
@@ -36,8 +37,9 @@ const Services = () => {
           </a>
 
           <a href="/collection">
-            <div className="relative md:ml-[20px] p-2 md:p-0 ">
+            <div className="relative md:ml-[20px] md:flex-1  p-2 md:p-0 ">
               <motion.img
+              className="md:h-screen md:w-full"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{
