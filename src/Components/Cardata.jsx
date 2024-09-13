@@ -16,7 +16,8 @@ const Cardata = [
             title: "LEATHER COLLAR TRENCH COAT",
             category: "Coat",
             privPrice: "550,000",
-            newPrice: "400,000"
+            newPrice: "400,000",
+            quantity: 43
         },
         {
             id: 2,
@@ -24,7 +25,8 @@ const Cardata = [
             title: "LIGHTWEIGHT DENIM SHIRT",
             category: "Shirt",
             privPrice: "550,000",
-            newPrice: "400,000"
+            newPrice: "400,000",
+            quantity: 43
         },
         {
             id: 3,
@@ -32,7 +34,8 @@ const Cardata = [
             title: "WOOL BLENDED SUIT SET",
             category: "Suit",
             privPrice: "550,000",
-            newPrice: "400,000"
+            newPrice: "400,000",
+            quantity: 43
         },
         {
             id: 4,
@@ -40,7 +43,8 @@ const Cardata = [
             title: "PALM TREE BROWN JACKET",
             category: "Jacket",
             privPrice: "550,000",
-            newPrice: "400,000"
+            newPrice: "400,000",
+            quantity: 43
         },
         {
             id: 5,
@@ -48,7 +52,8 @@ const Cardata = [
             title: "STRIPED BLAZER",
             category: "Blazers",
             privPrice: "550,000",
-            newPrice: "400,000"
+            newPrice: "400,000",
+            quantity: 43
         },
         {
             id: 6,
@@ -56,7 +61,8 @@ const Cardata = [
             title: "GEOMETRIC CROCHET SHIRT",
             category: "Shirt",
             privPrice: "550,000",
-            newPrice: "400,000"
+            newPrice: "400,000",
+            quantity: 43
         },
         {
             id: 7,
@@ -64,7 +70,8 @@ const Cardata = [
             title: "SATIN SHIRT WITH BOW",
             category: "Shirt",
             privPrice: "550,000",
-            newPrice: "400,000"
+            newPrice: "400,000",
+            quantity: 43
         },
         {
             id: 8,
@@ -72,7 +79,8 @@ const Cardata = [
             title: "LINEN SHIRT AND TROUSER",
             category: "Trouser",
             privPrice: "550,000",
-            newPrice: "400,000"
+            newPrice: "400,000",
+            quantity: 43
         },
         {
             id: 9,
@@ -80,7 +88,8 @@ const Cardata = [
             title: "WOOL BLEND JACKET",
             category: "Jacket",
             privPrice: "550,000",
-            newPrice: "400,000"
+            newPrice: "400,000",
+            quantity: 43
         }
         
         

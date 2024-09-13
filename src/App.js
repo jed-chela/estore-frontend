@@ -6,6 +6,7 @@ import Payment from "./Pages/Payment"
 import Productpage from "./Pages/Productpage";
 import Checkout from "./Pages/Checkout";
 import AdminDashboard from "./Pages/AdminDashboard";
+import AdminProductPage from "./Pages/AdminProductPage";
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/Productpage" element={<Productpage />} />
           <Route path="/Checkout" element={<Checkout/>} />
           <Route path="/Admindashboard" element={<AdminDashboard/>} />
+          <Route path="/AdminproductList" element={<AdminProductPage />} />
           
         </Routes>
       </BrowserRouter>
