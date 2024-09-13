@@ -4,6 +4,7 @@ import AdminNavbar from "../Components/AdminNavbar";
 import Dashbard from "../Components/Dashbard";
 import DashboardItem from "../Components/DashboardItem";
 import AdminMobileMenu from "../Components/AdminMobileMenu";
+import AdminTable from "../Components/AdminTable";
 
 const AdminDashboard = () => {
   return (
@@ -13,6 +14,7 @@ const AdminDashboard = () => {
       <AdminNavbar />
       <Dashbard />
       <DashboardItem />
+      <AdminTable />
     </div>
   );
 };
