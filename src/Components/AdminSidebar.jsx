@@ -1,13 +1,13 @@
 import React from 'react'
-import Logo2 from '../assets/productImage/Asset 2.svg.png'
+import Logo2 from '../assets/productImage/AwLogo2.png'
 
 const AdminSidebar = () => {
   return (
-    <div className='hidden md:block md:fixed h-full  w-[15%]  mr-[85%] border-r-2 z-[999] bg-white'>
+    <div className='hidden md:block md:fixed h-full font-medium w-[15%]  mr-[85%] border-r-2 z-[999] bg-white'>
         
         <a href="/Admindashboard">
             <h1 className='text-gray-800 md:text-2xl md:mt-4 md:justify-center flex mb-[50px] '>
-                <img className='w-[100px] h-[70px]' src={Logo2} alt="" />
+                <img className='w-[100px] h-[50px]' src={Logo2} alt="" />
             </h1>
         </a>
 
