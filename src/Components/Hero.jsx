@@ -25,7 +25,7 @@ const Hero = () => {
               className="text-[20px] sm:text-[30px] md:text-[50px] mb-4 text-center"
               href="/Home"
             >
-              AWYETU COLLECTION
+              Timeless Tradition
             </a>
           </h1>
 
