@@ -7,6 +7,9 @@ import Productpage from "./Pages/Productpage";
 import Checkout from "./Pages/Checkout";
 import AdminDashboard from "./Pages/AdminDashboard";
 import AdminProductPage from "./Pages/AdminProductPage";
+import AdminProductEdit from "./Pages/AdminProductEdit";
+import AdminOrderPage from "./Pages/AdminOrderPage";
+
 
 
 
@@ -32,6 +35,8 @@ function App() {
           <Route path="/Checkout" element={<Checkout/>} />
           <Route path="/Admindashboard" element={<AdminDashboard/>} />
           <Route path="/AdminproductList" element={<AdminProductPage />} />
+          <Route path="/Adminproductedith" element={<AdminProductEdit />} />
+          <Route path="/Adminorderpage" element={<AdminOrderPage />} />
           
         </Routes>
       </BrowserRouter>

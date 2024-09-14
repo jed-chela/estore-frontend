@@ -1,111 +1,88 @@
-import React from 'react'
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
-import Paper from "@mui/material/Paper";
 
-
-
-
-
-
-
+import {React, useState }   from "react";
+import Cardata from "./Cardata";
+import Cards from "./Cards";
+import {
+  TableContainer,
+  Table,
+  TableHead,
+  TableRow,
+  TableCell,
+  TableBody,
+  Paper,
+  Button,
+} from "@mui/material";
+import { Link } from "react-router-dom";
 
 
 const AdminTableList = () => {
-     
-  const rows = [
-    {
-      id: 1,
-      date: "july 2024",
-      quantity: "550,000",
-      status: "Pending",
-    },
-    {
-      id: 2,
-      date: "August 2024",
-      quantity: "450,000",
-      status: "Paid",
-    },
-    {
-      id: 3,
-      date: "September 2024",
-      quantity: "650,000",
-      status: "Pending",
-    },
-    {
-      id: 3,
-      date: "September 2024",
-      quantity: "650,000",
-      status: "Pending",
-    },
-    {
-      id: 3,
-      date: "September 2024",
-      quantity: "650,000",
-      status: "Pending",
-    },
-    {
-      id: 3,
-      date: "September 2024",
-      quantity: "650,000",
-      status: "Pending",
-    },
-    {
-      id: 3,
-      date: "September 2024",
-      quantity: "650,000",
-      status: "Pending",
-    },
-    {
-      id: 3,
-      date: "September 2024",
-      quantity: "650,000",
-      status: "Pending",
-    },
-  ];
-
-
-
+  const [productData, setProductData] = useState(Cardata);
+  const handleDelete = (id) => {
+   
+    const updatedData = productData.filter(item => item.id !== id);
+    setProductData(updatedData);
+  };
 
 
 
 
 
   return (
-    <div  className="bg-white relative mt-10 p-10 border-2 border-gray-500   md:ml-[18%]  h-auto border-b-gray-300 max-w-screen-xl">
-      <TableContainer component={Paper} >
+    <div className="bg-white relative mt-10 p-10 border-2 border-gray-500   md:ml-[18%]  h-auto border-b-gray-300 max-w-screen-xl">
+      <TableContainer component={Paper}>
         <div className="text-gray-700 font-medium w-fit">Latest Orders</div>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
-        <TableHead >
-          <TableRow>
-            <TableCell className="">Product Name</TableCell>
-            <TableCell className="">Price</TableCell>
-            <TableCell className="">Quantity</TableCell>
-            <TableCell className="">Category</TableCell>
-            <TableCell className="">Edit Product</TableCell>
-            <TableCell className="">Delete product</TableCell>
-            
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <TableRow key={row.id}>
-              <TableCell>{row.id}</TableCell>
-              <TableCell className="">{row.date}</TableCell>
-              <TableCell className="">{row.quantity}</TableCell>
-              <TableCell className="">{row.status}</TableCell>
-              
+        <Table sx={{ minWidth: 650 }} aria-label="simple table">
+          <TableHead>
+            <TableRow>
+              <TableCell className="">Product Name</TableCell>
+              <TableCell className="">Price</TableCell>
+              <TableCell className="">Quantity</TableCell>
+              <TableCell className="">Category</TableCell>
+              <TableCell className="">Edit Product</TableCell>
+              <TableCell className="">Delete product</TableCell>
             </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+          </TableHead>
+          <TableBody>
+            {productData.map((item) => (
+              <TableRow key={item.id}>
+                <TableCell>
+                  <div className="flex items-center">
+                    <img
+                      src={item.img}
+                      alt=""
+                      className="w-[30px] h-[32px] rounded-[50%] mr-[10px] object-cover"
+                    />
+                    {item.title}
+                  </div>
+                </TableCell>
+                <TableCell className="">{item.newPrice}</TableCell>
+                <TableCell className="">{item.quantity}</TableCell>
+                <TableCell className="">{item.category}</TableCell>
+                <TableCell>
+                  <Button variant="contained" color="primary">
+                    <Link to="/Adminproductedith"> Edit</Link>
+                  </Button>
+                </TableCell>
+                <TableCell>
+                  <Button
+                  
+                    variant="contained"
+                    sx={{
+                      backgroundColor: "red",
+                      '&:hover': { backgroundColor: "darkred" },
+                    }}
+                    onClick={() => handleDelete(item.id)}
+                  >
+                    Delete
+                  </Button>
+                </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
     </div>
-  )
-}
+  );
+};
 
-export default AdminTableList
+export default AdminTableList;

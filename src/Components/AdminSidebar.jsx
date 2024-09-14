@@ -23,7 +23,7 @@ const AdminSidebar = () => {
                 </a>
             </div>
             <div className='text-blue-950 w-auto   xl:w-[200px] hover:bg-blue-950 hover:text-white hover:rounded-[3px] m-4 p-1'>
-                <a href="">
+                <a href="/Adminorderpage">
                     <p>Orders</p>
                 </a>
             </div>
