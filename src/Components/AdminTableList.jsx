@@ -28,9 +28,13 @@ const AdminTableList = () => {
 
 
   return (
-    <div className="bg-white relative mt-10 p-10 border-2 border-gray-500   md:ml-[18%]  h-auto border-b-gray-300 max-w-screen-xl">
+    <div className="bg-white relative mt-10   md:ml-[18%]  h-auto border-b-gray-300 max-w-screen-xl">
+      <div className=" w-full  h-[70px] bg-white">
+        <p className="p-4 font-bold ml-2">LATEST ORDER</p>
+      </div>
+     
       <TableContainer component={Paper}>
-        <div className="text-gray-700 font-medium w-fit">Latest Orders</div>
+        
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>

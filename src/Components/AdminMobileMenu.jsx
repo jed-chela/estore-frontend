@@ -39,7 +39,7 @@ const AdminMobileMenu = () => {
               <Link to="/AdminproductList">Products</Link>
             </p>
             <p className=" p-4 m-2 ">
-              <Link to=""> Orders</Link>
+              <Link to="/Adminorderpage"> Orders</Link>
             </p>
           </div>
 
