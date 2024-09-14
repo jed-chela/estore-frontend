@@ -2,18 +2,14 @@ import React from "react";
 import picadm from "../assets/productImage/Group.png";
 import Logo from "../assets/productImage/4.svg.png";
 
+
 const AdminNavbar = () => {
   return (
-    
-      
-
-      <div className="hidden w-full ml-[18%] h-auto justify-end md:flex border-b-2 xl:w-auto border-b-gray-300 items-center">
-      <div className="mr-[40%]">
-        <img className="w-[100px} h-[80px]" src={Logo} alt="" />
-      </div>
-        
-        <div className=" items-center flex">
+    <div className="hidden w-full md:w-auto ml-[18%] h-auto justify-end md:flex border-b-2 xl:w-auto border-b-gray-300 items-center">
+      <div className=" items-center flex">
         <img className="w-auto h-[40px] mt-2" src={picadm} alt="" />
+
+       
 
         <div className="p-2 mr-4">
           <h1 className="md:text-[15px] lg:text-[20px]">ADMIN</h1>
@@ -21,9 +17,8 @@ const AdminNavbar = () => {
             admin@gmail.com
           </p>
         </div>
-        </div>
       </div>
-    
+    </div>
   );
 };
 

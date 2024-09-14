@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import OrderData from "./OrderData";
+import picadm from "../assets/productImage/Group.png";
 import {
   TableContainer,
   Table,
@@ -16,8 +17,21 @@ const AdminOrderList = () => {
   const [productData, setProductData] = useState(OrderData);
 
   return (
-    <div className=' className=" relative mt-2  bg-gray-100   md:ml-[18%]  h-screen border-b-gray-300 max-w-screen-xl"'>
-      <div className=" w-full  h-[70px] bg-white">
+    <div className=' className=" relative mt-2    md:ml-[18%]  h-screen border-b-gray-300 max-w-screen-xl"'>
+       <div className="mt-[5rem] w-full flex bg-none justify-end md:hidden">
+        <img className="w-auto h-[30px]  mt-2" src={picadm} alt="" />
+
+        <div className="p-2 mr-4">
+          <h1 className="text-[10px]">ADMIN</h1>
+          <p className="text-gray-400 text-[10px]  ">
+            admin@gmail.com
+          </p>
+        </div>
+      </div>
+      <hr className="md:hidden" />
+      
+     
+      <div className=" w-full mt-[5rem]  h-[70px] bg-white">
         <p className="p-4 font-bold ml-2">ORDER LIST</p>
       </div>
 

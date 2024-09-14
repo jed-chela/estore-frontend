@@ -1,7 +1,7 @@
-
-import {React, useState }   from "react";
+import { React, useState } from "react";
 import Cardata from "./Cardata";
 import Cards from "./Cards";
+import picadm from "../assets/productImage/Group.png";
 import {
   TableContainer,
   Table,
@@ -14,27 +14,31 @@ import {
 } from "@mui/material";
 import { Link } from "react-router-dom";
 
-
 const AdminTableList = () => {
   const [productData, setProductData] = useState(Cardata);
   const handleDelete = (id) => {
-   
-    const updatedData = productData.filter(item => item.id !== id);
+    const updatedData = productData.filter((item) => item.id !== id);
     setProductData(updatedData);
   };
 
-
-
-
-
   return (
-    <div className="bg-white relative mt-10   md:ml-[18%]  h-auto border-b-gray-300 max-w-screen-xl">
-      <div className=" w-full  h-[70px] bg-white">
+    <div className="bg-white relative  md:mt-10  md:ml-[18%]  h-auto border-b-gray-300 max-w-screen-xl">
+      <div className="mt-[5rem] w-full  flex justify-end md:hidden">
+        <img className="w-auto h-[30px]  mt-2" src={picadm} alt="" />
+
+        <div className="p-2 mr-4">
+          <h1 className="text-[10px]">ADMIN</h1>
+          <p className="text-gray-400 text-[10px]  ">
+            admin@gmail.com
+          </p>
+        </div>
+      </div>
+      <hr className="md:hidden" />
+      <div className=" mt-[5rem] w-full  bg-white">
         <p className="p-4 font-bold ml-2">LATEST ORDER</p>
       </div>
-     
+
       <TableContainer component={Paper}>
-        
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>
@@ -69,11 +73,10 @@ const AdminTableList = () => {
                 </TableCell>
                 <TableCell>
                   <Button
-                  
                     variant="contained"
                     sx={{
                       backgroundColor: "red",
-                      '&:hover': { backgroundColor: "darkred" },
+                      "&:hover": { backgroundColor: "darkred" },
                     }}
                     onClick={() => handleDelete(item.id)}
                   >
