@@ -35,7 +35,7 @@ function App() {
           <Route path="/Checkout" element={<Checkout/>} />
           <Route path="/Admindashboard" element={<AdminDashboard/>} />
           <Route path="/AdminproductList" element={<AdminProductPage />} />
-          <Route path="/Adminproductedith" element={<AdminProductEdit />} />
+          <Route path="/Adminproductedit" element={<AdminProductEdit />} />
           <Route path="/Adminorderpage" element={<AdminOrderPage />} />
           
         </Routes>

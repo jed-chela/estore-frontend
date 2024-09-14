@@ -68,7 +68,7 @@ const AdminTableList = () => {
                 <TableCell className="">{item.category}</TableCell>
                 <TableCell>
                   <Button variant="contained" color="primary">
-                    <Link to="/Adminproductedith"> Edit</Link>
+                    <Link to="/Adminproductedit"> Edit</Link>
                   </Button>
                 </TableCell>
                 <TableCell>

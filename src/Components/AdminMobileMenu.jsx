@@ -9,7 +9,7 @@ const AdminMobileMenu = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed md:hidden  bg-[#d6d8d8] text-black font-medium  mt-0 z-[999]  top-0 left-0 w-full h-[70px] grid-rows-1 justify-between  text-[20px]">
+    <div className="fixed md:hidden  bg-gray-100 text-black font-medium  mt-0 z-[999]  top-0 left-0 w-full h-[70px] grid-rows-1 justify-between  text-[20px]">
       <div className="flex w-full h-full flex-3 justify-between items-center ">
         <div className=" ml-2 ">
           <img className="w-[30px] h-[25px]" src={Logo} alt="" />
