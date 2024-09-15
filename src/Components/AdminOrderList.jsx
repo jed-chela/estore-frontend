@@ -32,7 +32,7 @@ const AdminOrderList = () => {
       <div className=" w-auto mt-[20px]  h-[70px] ">
         <p className="p-2  font-bold ml-2">ORDER LIST</p>
       </div>
-      <div className=' className=" relative  p-1  md:p-4  bg-[#D6D8D8] h-auto border-b-gray-300 max-w-screen-xl"'>
+      <div className=" relative  p-1  md:p-4  bg-[#D6D8D8] h-auto border-b-gray-300 max-w-screen-xl">
         <div className="grid md:flex md:p-2 mb-2">
           <div className="flex justify-between border-2 rounded-md  items-center md:m-1 bg-white">
             <input
@@ -52,7 +52,7 @@ const AdminOrderList = () => {
               id=""
               placeholder="Search"
             />
-            <CiSearch className="m-2 text-gray-500"/>
+            <CiSearch className="m-2 text-gray-500" />
           </div>
           <div className="flex justify-between  border-2 rounded-md items-center md:m-1 bg-white">
             <input
@@ -62,7 +62,7 @@ const AdminOrderList = () => {
               id=""
               placeholder="Status"
             />
-            <IoChevronDown className="m-2 text-gray-500"/>
+            <IoChevronDown className="m-2 text-gray-500" />
           </div>
         </div>
         <TableContainer component={Paper}>
@@ -94,7 +94,7 @@ const AdminOrderList = () => {
                         "&:hover": { backgroundColor: "darkred" },
                       }}
                     >
-                      View
+                      <Link to="/Adminorderview">View</Link>
                     </Button>
                   </TableCell>
                 </TableRow>

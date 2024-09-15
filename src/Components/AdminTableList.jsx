@@ -22,7 +22,7 @@ const AdminTableList = () => {
   };
 
   return (
-    <div className=' className=" relative mt-2 ml-[18%]  bg-gray-300 w-full md:w-auto  h-full border-b-gray-300 max-w-screen-xl"'>
+    <div className=" relative mt-2 ml-[18%]  bg-gray-300 w-full md:w-auto  h-full border-b-gray-300 max-w-screen-xl">
       <div className="mt-[5rem] w-full bg-white  flex justify-end md:hidden">
         <img className="w-auto h-[30px]  mt-2" src={picadm} alt="" />
 

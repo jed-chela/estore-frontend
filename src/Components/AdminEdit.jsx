@@ -5,7 +5,7 @@ import picadm from "../assets/productImage/Group.png";
 
 const AdminEdit = () => {
   return (
-    <div className=' className=" relative mt-2  bg-gray-300   md:ml-[18%]  h-full border-b-gray-300 max-w-screen-xl"'>
+    <div className=" relative mt-2  bg-gray-300   md:ml-[18%]  h-full border-b-gray-300 max-w-screen-xl">
       <div className="bg-white">
         {" "}
         <div className="mt-[5rem] w-auto    flex justify-end md:hidden">
@@ -25,7 +25,7 @@ const AdminEdit = () => {
 
       <div className=" h-auto md:p-6 p-1  ">
         <div className=" p-4  bg-white   md:h-auto  md:m-0  md:w-auto   ">
-          <button className="border-2 w-[50px] md:w-[70px] flex items-center mt-2  mb-4 block hover:bg-[#0b202e]  hover:text-[#d6d8d8] rounded-md">
+          <button className="border-2 w-[50px] md:w-[70px] flex items-center mt-2  mb-4  hover:bg-[#0b202e]  hover:text-[#d6d8d8] rounded-md">
             <FaChevronLeft className="m-1" />
             <Link to="/AdminproductList">Back</Link>
           </button>
