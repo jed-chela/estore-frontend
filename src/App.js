@@ -9,6 +9,7 @@ import AdminDashboard from "./Pages/AdminDashboard";
 import AdminProductPage from "./Pages/AdminProductPage";
 import AdminProductEdit from "./Pages/AdminProductEdit";
 import AdminOrderPage from "./Pages/AdminOrderPage";
+import AdminNewProduct from "./Pages/AdminNewProduct";
 
 
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="/AdminproductList" element={<AdminProductPage />} />
           <Route path="/Adminproductedit" element={<AdminProductEdit />} />
           <Route path="/Adminorderpage" element={<AdminOrderPage />} />
+          <Route path="/Adminproductadd" element={<AdminNewProduct />} />
           
         </Routes>
       </BrowserRouter>
