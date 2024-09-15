@@ -1,6 +1,8 @@
 import { React, useState } from "react";
 import OrderData from "./OrderData";
 import picadm from "../assets/productImage/Group.png";
+import { CiSearch } from "react-icons/ci";
+import { IoChevronDown } from "react-icons/io5";
 import {
   TableContainer,
   Table,
@@ -31,6 +33,38 @@ const AdminOrderList = () => {
         <p className="p-2  font-bold ml-2">ORDER LIST</p>
       </div>
       <div className=' className=" relative  p-1  md:p-4  bg-[#D6D8D8] h-auto border-b-gray-300 max-w-screen-xl"'>
+        <div className="grid md:flex md:p-2 mb-2">
+          <div className="flex justify-between border-2 rounded-md  items-center md:m-1 bg-white">
+            <input
+              className="  h-[40px] outline-none"
+              type="search"
+              name=""
+              id=""
+              placeholder="Order ID"
+            />
+            <IoChevronDown className="m-2 text-gray-500 " />
+          </div>
+          <div className="flex justify-between  border-2 rounded-md items-center md:m-1 bg-white">
+            <input
+              className="  h-[40px] w-full outline-none"
+              type="text"
+              name=""
+              id=""
+              placeholder="Search"
+            />
+            <CiSearch className="m-2 text-gray-500"/>
+          </div>
+          <div className="flex justify-between  border-2 rounded-md items-center md:m-1 bg-white">
+            <input
+              className="  h-[40px]  outline-none"
+              type="text"
+              name=""
+              id=""
+              placeholder="Status"
+            />
+            <IoChevronDown className="m-2 text-gray-500"/>
+          </div>
+        </div>
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>

@@ -5,7 +5,7 @@ const DashboardItem = () => {
 
     <div className="bg-white w-full relative xl:w-auto   md:ml-[18%]  h-auto border-b-gray-300  ">
       
-      <div className=" bg-red-400   grid  justify-center w-auto font-bold text-[#092c3f]  md:grid-cols-2 lg:flex  ">
+      <div className="  grid  justify-center w-auto font-bold text-[#092c3f]  md:grid-cols-2 lg:flex  ">
         <div className="shadow-lg shadow-gray-500/50 p-4   m-4 border-b-2  w-full h-[100px] font-bold md:h-[120px]  rounded-[5px] bg-[#d6d8d8]">
           <h3 className=" p-2">Total Customers</h3>
           <p className="p-2">600</p>
