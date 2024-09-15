@@ -10,6 +10,7 @@ import AdminProductPage from "./Pages/AdminProductPage";
 import AdminProductEdit from "./Pages/AdminProductEdit";
 import AdminOrderPage from "./Pages/AdminOrderPage";
 import AdminNewProduct from "./Pages/AdminNewProduct";
+import AdminOrderView from "./Pages/AdminOrderView";
 
 
 
@@ -39,6 +40,7 @@ function App() {
           <Route path="/Adminproductedit" element={<AdminProductEdit />} />
           <Route path="/Adminorderpage" element={<AdminOrderPage />} />
           <Route path="/Adminproductadd" element={<AdminNewProduct />} />
+          <Route path="/Adminorderview" element={<AdminOrderView />} />
           
         </Routes>
       </BrowserRouter>
