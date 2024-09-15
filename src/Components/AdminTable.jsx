@@ -32,7 +32,7 @@ const AdminTable = () => {
   
 
   return ( 
-    <TableContainer component={Paper} className="bg-white relative mt-10 p-10 border-2 border-gray-500   md:ml-[18%]  h-auto border-b-gray-300 overflow-x-auto w-full md:w-3/4 lg:w-1/2">
+    <TableContainer component={Paper} sx={{ maxWidth: 650 }} className="bg-white relative mt-10 p-10 border-2 border-gray-500   md:ml-[18%]  h-auto border-b-gray-300 overflow-x-auto w-full md:w-3/4 lg:w-1/2">
         <div className="text-gray-700 font-medium w-fit">Latest Orders</div>
       <Table sx={{ maxWidth: 650 }} aria-label="simple table">
         <TableHead >

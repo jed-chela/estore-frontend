@@ -5,40 +5,43 @@ import picadm from "../assets/productImage/Group.png";
 
 const AdminEdit = () => {
   return (
-    <div className=' className=" relative mt-2  bg-white   md:ml-[18%]  h-full border-b-gray-300 max-w-screen-xl"'>
-      <div className="mt-[5rem] w-auto  flex justify-end md:hidden">
-        <img className="w-auto h-[30px]  mt-2 " src={picadm} alt="" />
- 
-        <div className="p-2 mr-4">
-          <h1 className="text-[10px]">ADMIN</h1>
-          <p className="text-gray-400 text-[10px]  ">admin@gmail.com</p>
+    <div className=' className=" relative mt-2  bg-gray-300   md:ml-[18%]  h-full border-b-gray-300 max-w-screen-xl"'>
+      <div className="bg-white">
+        {" "}
+        <div className="mt-[5rem] w-auto    flex justify-end md:hidden">
+          <img className="w-auto h-[30px]  mt-2 " src={picadm} alt="" />
+
+          <div className="p-2 mr-4 ">
+            <h1 className="text-[10px]">ADMIN</h1>
+            <p className="text-gray-400 text-[10px]  ">admin@gmail.com</p>
+          </div>
+        </div>
+        <hr className="md:hidden" />
+        <div className=" relative w-auto mt-[2rem] md:mt-0  h-[70px] bg-white">
+          <p className="p-4 font-bold ml-2">EDIT PRODUCT</p>
         </div>
       </div>
       <hr className="md:hidden" />
-      <div className=" relative w-auto mt-[2rem] md:mt-0  h-[70px] bg-white">
-        <p className="p-4 font-bold ml-2">EDIT PRODUCT</p>
-      </div>
-      <hr className="md:hidden" />
 
-      <div className=" h-screen md:h-[35rem] ">
-        <div className=" p-4  bg-white md:mr-[30px]  md:ml-[30px] h-screen  md:h-[95%] mt-[30px] md:mt-[10px] w-full md:w-auto   ">
+      <div className=" h-auto md:p-6 p-1  ">
+        <div className=" p-4  bg-white   md:h-auto  md:m-0  md:w-auto   ">
           <button className="border-2 w-[50px] md:w-[70px] flex items-center mt-2  mb-4 block hover:bg-[#0b202e]  hover:text-[#d6d8d8] rounded-md">
             <FaChevronLeft className="m-1" />
-            <Link className="">Back</Link>
+            <Link to="/AdminproductList">Back</Link>
           </button>
-          <div className="grid md:flex w-full md:w-auto lg:gap-6">
-            <div className=" ">
+          <div className="grid md:flex w-full md:w-auto  lg:gap-6">
+            <div className="flex-1 ">
               <div className="w-full ">
                 <p className="w-fit m-2">Category</p>
                 <input
-                  className="w-full md:w-[90%] lg:w-[30rem] rounded-[3px] outline-none border-2"
+                  className="w-full md:w-[90%] rounded-[3px] outline-none hover:bg-[#D6D8D8] border-2"
                   type="text"
                   name=""
                   id=""
                 />
                 <p className="w-fit m-2">Name Of Product</p>
                 <input
-                  className="w-full  md:w-[90%] lg:w-[30rem]  rounded-[3px] outline-none  border-2"
+                  className="w-full  md:w-[90%]   rounded-[3px] outline-none hover:bg-[#D6D8D8] border-2"
                   type="text"
                   name=""
                   id=""
@@ -46,14 +49,14 @@ const AdminEdit = () => {
                 />
                 <p className="w-fit m-2">Description</p>
                 <textarea
-                  className="w-full md:w-[90%] lg:w-[30rem] align-top rounded-[3px] border-2 outline-none h-[100px]"
+                  className="w-full md:w-[90%]  align-top rounded-[3px] border-2 outline-none hover:bg-[#D6D8D8] h-[100px]"
                   type="text"
                   name=""
                   id=""
                 />
                 <p className="w-fit m-2">Upload Product</p>
                 <input
-                  className="w-full  md:w-[90%] lg:w-[30rem] rounded-[3px] h-[100px] outline-none"
+                  className="w-full  md:w-[90%] hover:bg-[#D6D8D8]  rounded-[3px] h-[100px] outline-none"
                   type="image"
                   src=""
                   alt=""
@@ -61,17 +64,17 @@ const AdminEdit = () => {
                 <input type="file" name="Image Upload" id="" />
               </div>
             </div>
-            <div className="w-full ">
+            <div className="w-full flex-1 ">
               <p className="w-fit m-2">Product Material</p>
               <input
-                className="w-full  md:w-[90%] lg:w-[30rem]  rounded-[3px]  border-2 outline-none"
+                className="w-full  md:w-[90%] hover:bg-[#D6D8D8]   rounded-[3px]  border-2 outline-none"
                 type="text"
                 name=""
                 id=""
               />
               <p className="w-fit m-2 ">Product Price</p>
               <input
-                className="w-full  md:w-[90%] lg:w-[30rem]  rounded-[3px]  border-2 outline-none"
+                className="w-full  md:w-[90%] hover:bg-[#D6D8D8]  rounded-[3px]  border-2 outline-none"
                 type="text"
                 name=""
                 id=""
@@ -79,16 +82,16 @@ const AdminEdit = () => {
 
               <p className="w-fit m-2">Quantity</p>
               <input
-                className="w-full  md:w-[90%] lg:w-[30rem]  rounded-[3px] border-2 outline-none "
+                className="w-full  md:w-[90%] hover:bg-[#D6D8D8]  rounded-[3px] border-2 outline-none "
                 type="text"
                 name=""
                 id=""
               />
             </div>
           </div>
-          <div className="grid justify-center ">
+          <div className="grid justify-center  ">
             <button className="border-2 mt-2  p-2 rounded-[8px] md:mt-6 bg-[#0b202e] hover:text-[#0b202e]  text-[#d6d8d8] hover:bg-[#d6d8d8] ">
-              <Link>Save Changes</Link>
+              <Link to="/AdminproductList">Save Changes</Link>
             </button>
           </div>
         </div>
