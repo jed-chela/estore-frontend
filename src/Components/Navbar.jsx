@@ -1,6 +1,7 @@
 import React from "react";
 import LogInIcon from '@mui/icons-material/PermIdentity';
-
+import { Link } from "react-router-dom";
+import Logo from '../assets/productImage/Awlogo4.png'
 const Navbar = () => {
   return (
     /* Nav Container */
@@ -10,6 +11,7 @@ const Navbar = () => {
         {/** Search Nav-container */}
         <div className="flex flex-1">
           <div className="text-[14px] cursor-pointer p-1">
+           
             <a href="/home">AWYETU</a>
 
           </div>
@@ -20,12 +22,12 @@ const Navbar = () => {
         </div>
 
         {/** Logo Nav-container */}
-        <div className="flex-1 text-3xl text-center lg:justify-end">
-          <h1>AWYETU</h1>
+        <div className="flex-1 text-3xl text-center md:ml-[7%] lg:ml-[20%] justify-center">
+        <Link to="/home"><img className="md:w-[120px] lg:w-[170px]" src={Logo} alt="" /></Link>
         </div>
 
         {/** Login Nav-container */}
-        <div className="flex flex-1 items-center justify-end cursor-pointer">
+        <div className="flex lg:flex-1  items-center justify-end cursor-pointer">
             <LogInIcon className="text-4xl" />
           <h1>Log In</h1>
         </div>

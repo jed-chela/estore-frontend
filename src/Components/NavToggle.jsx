@@ -2,22 +2,23 @@ import React, { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { IoCloseSharp } from "react-icons/io5";
 import Mobilepage from "./Mobilepage";
+import { Link } from "react-router-dom";
+import Logo from "../assets/productImage/Awlogo1.png";
 
 const NavToggle = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed md:hidden  bg-gray-50 text-black font-medium bg-opacity-70 mt-0 z-[999]   top-0 left-0 w-full h-auto flex justify-between  text-[20px]">
-      <div className="flex w-full flex-3 justify-between">
-        <a href="/Home" className=" ml-4 ">
-          <h1>Awyetu</h1>
-        </a>
-        <div onClick={handleClick} className="md:hidden mt-2 flex justify-end z-10">
-        {!nav ? <IoMdMenu /> : <IoCloseSharp />}
-      </div>
-      </div>
+    <div className="fixed md:hidden  bg-gray-50 text-black font-medium  mt-0 z-[999]   top-0 left-0 w-full h-auto flex justify-between  text-[20px]">
+      <div className="flex w-full flex-3 items-center justify-between">
+        <Link to="/home">
+          <img className="md:hidden h-[25px]  ml-4" src={Logo} alt="" />
+        </Link>
 
-      
+        <div onClick={handleClick} className="md:hidden p-2 flex justify-end z-10">
+          {!nav ? <IoMdMenu /> : <IoCloseSharp />}
+        </div>
+      </div>
 
       <div className="w-auto md:w-auto mt-[40px]  ">
         <div

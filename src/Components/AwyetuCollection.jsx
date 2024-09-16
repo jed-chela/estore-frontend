@@ -17,7 +17,7 @@ function createEntry(itemCards) {
 
 const AwyetuCollection = () => {
   return (
-    <div className="md:grid grid-cols-1 md:grid-cols-3  lg:mt-[2rem]  z-[-3] w-auto md:w-full">
+    <div className="md:grid md:ml-[23%] grid-cols-1 md:grid-cols-3  lg:mt-[2rem]  z-[-3] w-auto ">
       {Cardata.map(createEntry)}
  
     </div>
