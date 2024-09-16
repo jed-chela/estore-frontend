@@ -4,7 +4,7 @@ import { CiShoppingBasket } from "react-icons/ci";
 
 function Cards(props) {
   return (
-    <div className="flex m-1   cursor-pointer  md:w-[15rem] lg:w-auto">
+    <div className=" m-1   cursor-pointer  md:w-auto">
       <div className=" mt-[20px] md:mt-[7rem] border-gray-200 p-5 ">
         <div>
         <a href="/Productpage">
