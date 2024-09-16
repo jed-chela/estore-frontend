@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import Cardata from "./Cardata";
 import Cards from "./Cards";
 import picadm from "../assets/productImage/Group.png";
+import { IoFilter } from "react-icons/io5";
 import {
   TableContainer,
   Table,
@@ -22,7 +23,7 @@ const AdminTableList = () => {
   };
 
   return (
-    <div className=" relative mt-2 ml-[18%]  bg-gray-300 w-full md:w-auto  h-full border-b-gray-300 max-w-screen-xl">
+    <div className=" mt-2 md:ml-[16%]  bg-gray-300 md:w-auto  h-full border-b-gray-300 max-w-screen-xl">
       <div className="mt-[5rem] w-full bg-white  flex justify-end md:hidden">
         <img className="w-auto h-[30px]  mt-2" src={picadm} alt="" />
 
@@ -33,17 +34,17 @@ const AdminTableList = () => {
       </div>
       <hr className="md:hidden" />
 
-      <div className="  w-full  ">
+      <div className="  w-auto ">
         <p className="p-2 font-bold  bg-white">PRODUCT LIST</p>
       </div>
-      <div className=" relative  md:mt-2   p-2 md:p-4 h-auto border-b-gray-300 max-w-screen-xl">
+      <div className=" relative  md:mt-2   p-1 md:p-2 h-auto border-b-gray-300 max-w-screen-xl">
         <TableContainer component={Paper}>
           <div className="flex justify-between items-center">
             <p className="p-4 font-bold">PRODUCTS</p>
-            <div className="hidden md:block mr-2">
-              <button className="border-2 bg-[#0B202E] rounded-md m-1 text-[10px] text-[#D6D8D8] p-2"> <Link to="/Adminproductadd">Add Product</Link></button>
-              <button className="border-2 bg-[#0B202E] rounded-md m-1 text-[10px] text-[#D6D8D8] p-2">Filters</button>
-              <button className="border-2 bg-[#0B202E] rounded-md m-1 text-[10px] text-[#D6D8D8] p-2">Download All</button>
+            <div className="hidden md:flex mr-2">
+              <button className="border-2 bg-[#0B202E] hover:bg-[#D6D8D8] hover:text-[#0B202E] rounded-md m-1 text-[10px] text-[#D6D8D8] p-2"> <Link to="/Adminproductadd">Add Product</Link></button>
+              <button className="border-2 bg-[#0B202E] rounded-md m-1 text-[10px] text-[#D6D8D8] hover:bg-[#D6D8D8] hover:text-[#0B202E] items-center flex p-2 "><IoFilter className="mr-2 text-[20px]" /><Link cl>Filters</Link></button>
+              <button className="border-2 bg-[#0B202E] rounded-md m-1 text-[10px] text-[#D6D8D8] hover:bg-[#D6D8D8] hover:text-[#0B202E] p-2">Download All</button>
             </div>
           </div>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">

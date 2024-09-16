@@ -19,11 +19,11 @@ const AdminOrderList = () => {
   const [productData, setProductData] = useState(OrderData);
 
   return (
-    <div className=" mt-2  md:ml-[18%] h-screen max-w-screen-xl">
+    <div className=" mt-2  md:ml-[16%] h-screen max-w-screen-xl">
       <div className="mt-[5rem] w-full flex  bg-none justify-end md:hidden">
         <img className="w-auto h-[30px]  mt-2" src={picadm} alt="" />
 
-        <div className="p-2 mr-4 ">
+        <div className="p-2 mr-4  ">
           <h1 className="text-[10px]">ADMIN</h1>
           <p className="text-gray-400 text-[10px]  ">admin@gmail.com</p>
         </div>
@@ -32,7 +32,7 @@ const AdminOrderList = () => {
       <div className=" w-auto mt-[20px]  h-[70px] ">
         <p className="p-2  font-bold ml-2">ORDER LIST</p>
       </div>
-      <div className=" relative  p-1  md:p-4  bg-[#D6D8D8] h-auto border-b-gray-300 max-w-screen-xl">
+      <div className=" relative  p-1  md:p-2  bg-[#D6D8D8] h-auto border-b-gray-300 max-w-screen-xl">
         <div className="grid md:flex md:p-2 mb-2">
           <div className="flex justify-between border-2 rounded-md  items-center md:m-1 bg-white">
             <input
