@@ -2,10 +2,12 @@ import React from "react";
 import { CiShoppingBasket } from "react-icons/ci";
 
 
+
 function Cards(props) {
   return (
     <div className=" m-1   cursor-pointer  md:w-auto">
       <div className=" mt-[20px] md:mt-[7rem] border-gray-200 p-5 ">
+      
         <div>
         <a href="/Productpage">
           <div className="md:w-full w-full ">
@@ -31,6 +33,7 @@ function Cards(props) {
           </div>
           </a>
         </div>
+       
       </div>
     </div>
   );

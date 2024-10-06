@@ -20,6 +20,8 @@ const Cardata = [
     date: "September 2024",
     amount: "650,000",
     status: "Pending",
+    size: "xs",
+    type: "New"
   },
   {
     id: 2,
@@ -32,6 +34,8 @@ const Cardata = [
     date: "September 2024",
     amount: "650,000",
     status: "Pending",
+    size: "s",
+    type: "Timeless Tradition"
   },
   {
     id: 3,
@@ -44,6 +48,8 @@ const Cardata = [
     date: "September 2024",
     amount: "650,000",
     status: "Pending",
+    size: "m",
+    type: "Shirts"
   },
   {
     id: 4,
@@ -56,6 +62,8 @@ const Cardata = [
     date: "September 2024",
     amount: "650,000",
     status: "Pending",
+    size: "l",
+    type: "Trousers"
   },
   {
     id: 5,
@@ -68,6 +76,8 @@ const Cardata = [
     date: "September 2024",
     amount: "650,000",
     status: "Pending",
+    size: "xl",
+    type: "Suits"
   },
   {
     id: 6,
@@ -80,6 +90,8 @@ const Cardata = [
     date: "September 2024",
     amount: "650,000",
     status: "Pending",
+    size: "2x",
+    type: "Best Sellers"
   },
   {
     id: 7,
@@ -92,6 +104,8 @@ const Cardata = [
     date: "September 2024",
     amount: "650,000",
     status: "Pending",
+    size: "xs",
+    type: "T-Shirts"
   },
   {
     id: 8,
@@ -104,6 +118,8 @@ const Cardata = [
     date: "September 2024",
     amount: "650,000",
     status: "Pending",
+    size: "s",
+    type: "Agbadas"
   },
   {
     id: 9,
@@ -116,6 +132,22 @@ const Cardata = [
     date: "September 2024",
     amount: "650,000",
     status: "Pending",
+    size: "m",
+    type: "Jackets"
+  },
+  {
+    id: 9,
+    img: pic9,
+    title: "WOOL BLEND JACKET",
+    category: "Jacket",
+    privPrice: "550,000",
+    newPrice: "400,000",
+    quantity: 43,
+    date: "September 2024",
+    amount: "650,000",
+    status: "Pending",
+    size: "l",
+    type: "Coats"
   },
 ];
 
