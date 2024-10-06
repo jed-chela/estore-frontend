@@ -5,7 +5,10 @@
       "title": "LEATHER COLLAR TRENCH COAT",
       "category": "Coat",
       "privPrice": "550,000",
-      "newPrice": "400,000"
+      "newPrice": "400,000",
+      "size": "xl",
+      "status": "New"
+      
     },
     {
       "id": 2,
@@ -13,7 +16,9 @@
       "title": "LIGHTWEIGHT DENIM SHIRT",
       "category": "Shirt",
       "privPrice": "550,000",
-      "newPrice": "400,000"
+      "newPrice": "400,000",
+      "size": "xl",
+      "status": "Timeless Tradition"
     },
     {
       "id": 3,
@@ -21,7 +26,9 @@
       "title": "WOOL BLENDED SUIT SET",
       "category": "Suit",
       "privPrice": "550,000",
-      "newPrice": "400,000"
+      "newPrice": "400,000",
+      "size": "xl",
+      "status": "Shirts"
     },
     {
       "id": 4,
@@ -29,7 +36,9 @@
       "title": "PALM TREE BROWN JACKET",
       "category": "Jacket",
       "privPrice": "550,000",
-      "newPrice": "400,000"
+      "newPrice": "400,000",
+      "size": "xl",
+      "status": "Trousers"
     },
     {
       "id": 5,
@@ -37,7 +46,9 @@
       "title": "STRIPED BLAZER",
       "category": "Blazers",
       "privPrice": "550,000",
-      "newPrice": "400,000"
+      "newPrice": "400,000",
+      "size": "xl",
+      "status": "Suits"
     },
     {
       "id": 6,
@@ -45,7 +56,9 @@
       "title": "GEOMETRIC CROCHET SHIRT",
       "category": "Shirt",
       "privPrice": "550,000",
-      "newPrice": "400,000"
+      "newPrice": "400,000",
+      "size": "xl",
+      "status": "Best Selers"
     },
     {
       "id": 7,
@@ -53,7 +66,9 @@
       "title": "SATIN SHIRT WITH BOW",
       "category": "Shirt",
       "privPrice": "550,000",
-      "newPrice": "400,000"
+      "newPrice": "400,000",
+      "size": "xl",
+      "status": "T-Shirts"
     },
     {
       "id": 8,
@@ -61,7 +76,9 @@
       "title": "LINEN SHIRT AND TROUSER",
       "category": "Trouser",
       "privPrice": "550,000",
-      "newPrice": "400,000"
+      "newPrice": "400,000",
+      "size": "xl",
+      "status": "Agbadas"
     },
     {
       "id": 9,
@@ -69,7 +86,19 @@
       "title": "WOOL BLEND JACKET",
       "category": "Jacket",
       "privPrice": "550,000",
-      "newPrice": "400,000"
+      "newPrice": "400,000",
+      "size": "xl",
+      "status": "Jackets"
+    },
+    {
+      "id": 9,
+      "img": "../assets/productImage/image 18.png",
+      "title": "WOOL BLEND JACKET",
+      "category": "Jacket",
+      "privPrice": "550,000",
+      "newPrice": "400,000",
+      "size": "xl",
+      "status": "Coats"
     }
   ]
   
