@@ -21,7 +21,9 @@ const Cardata = [
     amount: "650,000",
     status: "Pending",
     size: "xs",
-    type: "New"
+    type: "New",
+    reviews: "★★★★",
+    reviewNumber: "4"
   },
   {
     id: 2,
@@ -35,7 +37,9 @@ const Cardata = [
     amount: "650,000",
     status: "Pending",
     size: "s",
-    type: "Timeless Tradition"
+    type: "Timeless Tradition",
+    reviews: "★★★",
+    reviewNumber: "3"
   },
   {
     id: 3,
@@ -49,7 +53,9 @@ const Cardata = [
     amount: "650,000",
     status: "Pending",
     size: "m",
-    type: "Shirts"
+    type: "Shirts",
+    reviews: "★★★★★",
+    reviewNumber: "5"
   },
   {
     id: 4,
@@ -63,7 +69,9 @@ const Cardata = [
     amount: "650,000",
     status: "Pending",
     size: "l",
-    type: "Trousers"
+    type: "Trousers",
+    reviews: "★★★★",
+    reviewNumber: "4"
   },
   {
     id: 5,
@@ -77,7 +85,9 @@ const Cardata = [
     amount: "650,000",
     status: "Pending",
     size: "xl",
-    type: "Suits"
+    type: "Suits",
+    reviews: "★★★★",
+    reviewNumber: "4"
   },
   {
     id: 6,
@@ -91,7 +101,10 @@ const Cardata = [
     amount: "650,000",
     status: "Pending",
     size: "2x",
-    type: "Best Sellers"
+    type: "Best Sellers",
+    reviews: "★★★★",
+    reviewNumber: "4"
+    
   },
   {
     id: 7,
@@ -105,7 +118,9 @@ const Cardata = [
     amount: "650,000",
     status: "Pending",
     size: "xs",
-    type: "T-Shirts"
+    type: "T-Shirts",
+    reviews: "★★★★",
+    reviewNumber: "4"
   },
   {
     id: 8,
@@ -119,7 +134,9 @@ const Cardata = [
     amount: "650,000",
     status: "Pending",
     size: "s",
-    type: "Agbadas"
+    type: "Agbadas",
+    reviews: "★★★★",
+    reviewNumber: "4"
   },
   {
     id: 9,
@@ -133,7 +150,9 @@ const Cardata = [
     amount: "650,000",
     status: "Pending",
     size: "m",
-    type: "Jackets"
+    type: "Jackets",
+    reviews: "★★★★",
+    reviewNumber: "4"
   },
   {
     id: 9,
@@ -147,7 +166,9 @@ const Cardata = [
     amount: "650,000",
     status: "Pending",
     size: "l",
-    type: "Coats"
+    type: "Coats",
+    reviews: "★★★★",
+    reviewNumber: "4"
   },
 ];
 
